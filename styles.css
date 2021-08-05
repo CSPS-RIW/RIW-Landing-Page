@@ -3,7 +3,56 @@
     secondary: #4E5B73
     third: #DA797A */
 
+    /* Add these for RIW moodle layout */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
+    body {
+      width: 84%;
+      padding: 0;
+    }
+
+    /* #page-wrapper {
+      width: 83vw;
+    } */
+
+    .riw-jumbotron-img {
+      width: 98.9vw !important;
+    }
+
+    .riw-jumbotron {
+      width: 98.9vw !important;
+
+    }
+
+    .riw-carousel {
+      width: 98.9vw !important;
+    }
+
+    .product-list {
+      width: 98.9vw !important;
+    }
+
+    .pdf-docs {
+      width: 98.9vw !important;
+    }
+
+    .riw-card-deck {
+      width: 98.9vw !important;
+    }
+
+    .riw-footer-shift {
+      width: 98.9vw !important;
+    }
+
+    .riw-footer-col {
+      max-width: 25% !important;
+    }
+
+    /* Don't add these styles, they are already in moodle */
     .responsive {
       width: 100%;
       height: auto;
@@ -547,7 +596,8 @@
       top: 50%;
       left: 50%;
       transform: translate(-45%, 100px);
-      margin: 1rem 0 0 0;
+      margin: 0;
+      width: 15rem;
     }
 
     .card {
@@ -759,6 +809,10 @@
 
 
     @media only screen and (min-width: 992px) {
+
+      /* .riw-jumbotron-img {
+        width: 98.9vw !important;
+      } */
 
       /* Tapestry*/
 
