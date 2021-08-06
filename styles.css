@@ -15,6 +15,11 @@
       padding: 0;
     }
 
+    h2.product-content {
+      left: 1rem;
+      text-align: center;
+    }
+
     .riw-jumbotron-img {
       width: 98.9vw !important;
     }
@@ -39,12 +44,10 @@
     .riw-card-deck {
       position: relative;
       left: 1.25rem;
-      /* margin-top: -20rem; */
       width: 99vw !important;
     }
 
     .riw-footer-shift {
-      /* width: 98.9vw !important; */
       width: 80%;
     }
 
@@ -616,7 +619,7 @@
     .titles-sm {
       display: inline;
       position: relative;
-      left: 6.5%;
+      left: 30.5%;
       max-width: 15rem;
       margin: 0 15rem;
     }
