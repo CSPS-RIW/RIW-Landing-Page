@@ -3,86 +3,6 @@
     secondary: #4E5B73
     third: #DA797A */
 
-    /* Add these for RIW moodle layout */
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    body {
-      width: 84%;
-      padding: 0;
-    }
-
-    h2.product-content {
-      left: 1rem;
-      text-align: center;
-    }
-
-    .riw-jumbotron-img {
-      width: 98.9vw !important;
-    }
-
-    .riw-jumbotron {
-      width: 98.9vw !important;
-
-    }
-
-    .riw-carousel {
-      width: 98.9vw !important;
-    }
-
-    .product-list {
-      width: 98.9vw !important;
-    }
-
-    .pdf-docs {
-      width: 98.9vw !important;
-    }
-
-    .riw-card-deck {
-      position: relative;
-      left: 1.25rem;
-      width: 99vw !important;
-    }
-
-    .riw-footer-shift {
-      width: 80%;
-    }
-
-    .riw-footer-col {
-      display: inline !important;
-      margin-right: 1rem !important;
-      left: -1em;
-    }
-
-    .riw-footer-row {
-      position: relative;
-      left: 30%;
-    }
-
-    p.riw-footer-row {
-      left: 41%;
-    }
-
-    .school-logo p {
-      display: block;
-      max-width: 7rem;
-    }
-
-    .long-hr {
-      position: relative;
-      left: 1rem;
-      width: 97vw;
-    }
-
-    .contact-us {
-      position: relative;
-      left: 44%;
-      display: inline;
-    }
-
     /* Don't add these styles, they should be already in moodle */
     .responsive {
       width: 100%;
@@ -301,6 +221,86 @@
     }
 
     /* RIW styles */
+    /* Add these for RIW moodle layout */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      width: 84%;
+      padding: 0;
+    }
+
+    h2.product-content {
+      left: 1rem;
+      text-align: center;
+    }
+
+    .riw-jumbotron-img {
+      width: 98.9vw !important;
+    }
+
+    .riw-jumbotron {
+      width: 98.9vw !important;
+
+    }
+
+    .riw-carousel {
+      width: 98.9vw !important;
+    }
+
+    .product-list {
+      width: 98.9vw !important;
+    }
+
+    .pdf-docs {
+      width: 98.9vw !important;
+    }
+
+    .riw-card-deck {
+      position: relative;
+      left: 1.25rem;
+      width: 99vw !important;
+    }
+
+    .riw-footer-shift {
+      width: 80%;
+    }
+
+    .riw-footer-col {
+      display: inline !important;
+      margin-right: 1rem !important;
+      left: -1em;
+    }
+
+    .riw-footer-row {
+      position: relative;
+      left: 30%;
+    }
+
+    p.riw-footer-row {
+      left: 41%;
+    }
+
+    .school-logo p {
+      display: block;
+      max-width: 7rem;
+    }
+
+    .long-hr {
+      position: relative;
+      left: 1rem;
+      width: 97vw;
+    }
+
+    .contact-us {
+      position: relative;
+      left: 44%;
+      display: inline;
+    }
+
     .riw-jumbotron {
       padding: 1rem;
       margin: 0;
