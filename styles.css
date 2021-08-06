@@ -630,27 +630,27 @@
       margin-top: 1px;
     }
 
-    .card {
+    .riw-card {
       cursor: default;
     }
 
-    .card-deck {
+    .riw-card-deck {
       display: flex;
       flex-flow: row wrap;
       margin: 0 -2.5rem;
     }
 
-    .card-deck .card {
+    .riw-card-deck .riw-card {
       flex: 100%;
       margin: 2rem 1rem;
     }
 
-    .card-body a {
+    .riw-card-body a {
       color: #000;
       cursor: pointer;
     }
 
-    .card-time {
+    .riw-card-time {
       text-align: center;
       font-size: 1em;
       font-weight: 600;
@@ -847,11 +847,11 @@
 
       /* Course Cards on Landing Pages */
 
-      .courseCards .card-deck {
+      .riw-course-cards .riw-card-deck {
         justify-content: center;
       }
 
-      .courseCards .card {
+      .riw-course-cards .riw-card {
         margin-bottom: 1em;
         min-width: 17rem;
         max-width: 22rem;
@@ -859,43 +859,43 @@
         border-width: 0.075rem;
       }
 
-      .courseCards .btn {
+      .riw-course-cards .btn {
         border-radius: 8px;
       }
 
-      .courseCards .card-header {
+      .riw-course-cards .riw-card-header {
         color: #ffffff;
         text-align: center;
         background-color: #3F2A55;
       }
 
-      .courseCards .card-body .card-title {
+      .riw-course-cards .riw-card-body .riw-card-title {
         text-align: center;
       }
 
-      .courseCards .card-body {
+      .riw-course-cards .riw-card-body {
         color: #000;
       }
 
-      .courseCards .card-body .fas {
+      .riw-course-cards .riw-card-body .fas {
         color: #4E5B73;
       }
 
-      .courseCards .card-footer .btn {
+      .riw-course-cards .riw-card-footer .btn {
         background-color: #3F2A55;
         border-color: #3F2A55;
       }
 
-      .courseCards .card-footer {
+      .riw-course-cards .riw-card-footer {
         border-top-color: #ffffff;
         background-color: #ffffff;
       }
 
-      .courseCards .card-block {
+      .riw-course-cards .riw-card-block {
         display: contents;
       }
 
-      .courseCards .card img {
+      .riw-course-cards .riw-card img {
         height: 190px;
       }
 
@@ -1099,37 +1099,31 @@
 
       /*cards*/
 
-      .card {
+      .riw-card {
         cursor: default;
       }
 
-      .card-deck {
+      .riw-card-deck {
         display: flex;
         flex-flow: row wrap;
       }
 
-      .card-deck .card {
+      .riw-card-deck .riw-card {
         flex: 100%;
         margin: 2rem 1rem;
       }
 
-      .card-body a {
+      .riw-card-body a {
         color: #000;
         cursor: pointer;
       }
 
 
-      .card-time {
+      .riw-card-time {
         text-align: center;
         font-size: 1em;
         font-weight: 600;
       }
-
-      .read-more a {
-        color: #3F2A55;
-        font-weight: bold;
-      }
-
 
       a.event-link {
         display: block;
