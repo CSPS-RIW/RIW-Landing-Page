@@ -238,14 +238,18 @@
       text-align: center;
     }
 
+    .riw-jumbotron {
+      width: 98.9vw !important;
+    }
+
+    .riw-jumbotron p {
+      font-weight: 500;
+    }
+
     .riw-jumbotron-img {
       width: 98.9vw !important;
     }
 
-    .riw-jumbotron {
-      width: 98.9vw !important;
-
-    }
 
     .riw-carousel {
       width: 98.9vw !important;
