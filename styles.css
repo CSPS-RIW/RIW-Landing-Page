@@ -266,6 +266,8 @@
     }
 
     .riw-footer-shift {
+      position: relative;
+      left: 2rem;
       width: 80%;
     }
 
@@ -281,7 +283,7 @@
     }
 
     p.riw-footer-row {
-      left: 41%;
+      left: 39%;
     }
 
     .school-logo p {
@@ -614,14 +616,14 @@
     .titles-sm {
       display: inline;
       position: relative;
-      left: 30.5%;
+      left: 24%;
       max-width: 15rem;
       margin: 0 15rem;
     }
 
     /* properly center more resources title */
     .resources {
-      left: 27%;
+      left: 28%;
     }
 
     /*cards*/
@@ -678,14 +680,15 @@
 
     .gc-campus {
       margin: 1rem 0;
+      position: relative;
+      top: 30%;
+      left: 39%;
+      width: 10rem;
+      height: auto;
     }
 
     .gc-campus img {
-      position: relative;
-      top: 30%;
-      left: 55%;
-      width: 10rem;
-      height: auto;
+      width: 13rem;
     }
 
     .gc-campus img:hover {
@@ -842,8 +845,10 @@
         height: auto;
       }
 
+      .titles-sm {
+        left: 26%;
 
-
+      }
 
       /* Course Cards on Landing Pages */
 
@@ -1145,4 +1150,10 @@
         align-items: center;
       }
 
+    }
+
+    @media only screen and (min-width: 1326px) {
+      .titles-sm {
+        left: 32%;
+      }
     }
