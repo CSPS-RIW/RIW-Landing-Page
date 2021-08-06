@@ -37,8 +37,10 @@
     }
 
     .riw-card-deck {
-      margin-top: -20rem;
-      width: 98.9vw !important;
+      position: relative;
+      left: 1.25rem;
+      /* margin-top: -20rem; */
+      width: 99vw !important;
     }
 
     .riw-footer-shift {
