@@ -15,10 +15,6 @@
       padding: 0;
     }
 
-    /* #page-wrapper {
-      width: 83vw;
-    } */
-
     .riw-jumbotron-img {
       width: 98.9vw !important;
     }
@@ -41,18 +37,45 @@
     }
 
     .riw-card-deck {
+      margin-top: -20rem;
       width: 98.9vw !important;
     }
 
     .riw-footer-shift {
-      width: 98.9vw !important;
+      /* width: 98.9vw !important; */
+      width: 80%;
     }
 
     .riw-footer-col {
-      max-width: 25% !important;
+      display: inline !important;
+      margin-right: 1rem !important;
+      width: 0;
+      flex-shrink: 5;
     }
 
-    /* Don't add these styles, they are already in moodle */
+    .riw-footer-row {
+      position: relative;
+      left: 30%;
+    }
+
+    .school-logo p {
+      display: block;
+      max-width: 7rem;
+    }
+
+    .long-hr {
+      position: relative;
+      left: 1rem;
+      width: 97vw;
+    }
+
+    .contact-us {
+      position: relative;
+      left: 44%;
+      display: inline;
+    }
+
+    /* Don't add these styles, they should be already in moodle */
     .responsive {
       width: 100%;
       height: auto;
@@ -494,7 +517,7 @@
     }
 
 
-    .proper-hr {
+    .custom-hr {
       position: relative;
       top: 6rem;
     }
@@ -587,17 +610,28 @@
       top: 15rem;
     }
 
+    /* small titles */
+    .titles-sm {
+      display: inline;
+      position: relative;
+      left: 6.5%;
+      max-width: 15rem;
+      margin: 0 15rem;
+    }
 
     /*cards*/
 
 
     .events {
+      /* float: right; */
       position: relative;
-      top: 50%;
-      left: 50%;
-      transform: translate(-45%, 100px);
-      margin: 0;
-      width: 15rem;
+      display: inline;
+      margin-bottom: -100em;
+      max-width: 15rem;
+    }
+
+    .riw-card-deck {
+      margin-top: 1px;
     }
 
     .card {
@@ -607,7 +641,7 @@
     .card-deck {
       display: flex;
       flex-flow: row wrap;
-      margin: 5rem -2.5rem 0 -2.5rem;
+      margin: 0 -2.5rem;
     }
 
     .card-deck .card {
@@ -702,10 +736,10 @@
       opacity: 1;
     }
 
-    p.contact-us {
+    /* p.contact-us {
       position: relative;
       left: 20%;
-    }
+    } */
 
     .contact-us a {
       display: inline;
@@ -833,7 +867,15 @@
       }
 
       .events {
-        transform: translate(-23rem, 100px);
+        top: 50%;
+        left: 26%;
+        transform: translate(10em);
+        max-width: 15%;
+      }
+
+      .riw-course-cards {
+        margin-top: 0;
+
       }
 
 
@@ -1245,18 +1287,19 @@
         /* top: 15rem; */
       }
 
-      .proper-hr {
+      .custom-hr {
         position: relative;
         top: 6rem;
+        margin-bottom: 7rem;
       }
 
 
       /*cards*/
 
       .events {
-        position: relative;
+        /* position: relative;
         top: 50%;
-        left: 50%;
+        left: 50%; */
 
         transform: translate(-23rem, 100px);
         margin: 1rem 0 0 0;
@@ -1269,7 +1312,6 @@
       .card-deck {
         display: flex;
         flex-flow: row wrap;
-        margin: 6rem -2.5rem 0 -2.5rem;
       }
 
       .card-deck .card {
@@ -1329,13 +1371,13 @@
         opacity: 1;
       }
 
-      .contact-us a {
+      /* .contact-us a {
         display: inline;
         text-decoration: underline;
       }
 
       .contact-us a:hover {
         color: #3F2A55;
-      }
+      } */
 
     }
