@@ -228,9 +228,8 @@
       padding: 0;
     }
 
-    body {
-      width: 84%;
-      padding: 0;
+    .body {
+      width: 95em;
     }
 
     h2.product-content {
@@ -243,7 +242,7 @@
     }
 
     .riw-jumbotron {
-      width: 98.9vw !important;
+      width: 94vw !important;
     }
 
     .riw-jumbotron p {
@@ -251,20 +250,20 @@
     }
 
     .riw-jumbotron-img {
-      width: 98.9vw !important;
+      width: 94vw !important;
     }
 
 
     .riw-carousel {
-      width: 98.9vw !important;
+      width: 94vw !important;
     }
 
     .product-list {
-      width: 98.9vw !important;
+      width: 94vw !important;
     }
 
     .pdf-docs {
-      width: 98.9vw !important;
+      width: 94vw !important;
     }
 
     .riw-card-deck {
