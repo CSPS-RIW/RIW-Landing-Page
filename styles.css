@@ -224,11 +224,6 @@
     /* 
     * Add these for RIW moodle layout 
     */
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
 
     .body {
       width: 95em;
