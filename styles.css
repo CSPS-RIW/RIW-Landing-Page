@@ -225,9 +225,9 @@
     * Add these for RIW moodle layout 
     */
 
-    .body {
+    /* .body {
       width: 95em;
-    }
+    } */
 
     h2.product-content {
       left: 1rem;
@@ -238,8 +238,11 @@
       text-align: center;
     }
 
+    /* 
+  * Try changing width to 94vw
+*/
     .riw-jumbotron {
-      width: 94vw !important;
+      width: 100% !important;
     }
 
     .riw-jumbotron p {
@@ -247,20 +250,20 @@
     }
 
     .riw-jumbotron-img {
-      width: 94vw !important;
+      width: 100% !important;
     }
 
 
     .riw-carousel {
-      width: 94vw !important;
+      width: 100% !important;
     }
 
     .product-list {
-      width: 94vw !important;
+      width: 100% !important;
     }
 
     .pdf-docs {
-      width: 94vw !important;
+      width: 100% !important;
     }
 
     .riw-card-deck {
