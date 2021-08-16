@@ -221,7 +221,9 @@
     }
 
     /* RIW styles */
-    /* Add these for RIW moodle layout */
+    /* 
+    * Add these for RIW moodle layout 
+    */
     * {
       box-sizing: border-box;
       margin: 0;
@@ -333,7 +335,7 @@
       color: #fefefe;
     }
 
-    a.dropdown-item {
+    a.riw-dropdown-item {
       color: #00000091;
     }
 
@@ -417,7 +419,7 @@
       margin: 1rem 0;
     }
 
-    .dropdown-menu a.dropdown-item {
+    .dropdown-menu a.riw-dropdown-item {
       white-space: normal;
     }
 
@@ -431,7 +433,7 @@
       color: #b1b1b1;
     }
 
-    a.dropdown-item:hover {
+    a.riw-dropdown-item:hover {
       background-color: #3F2A56;
       color: #fefefe;
     }
@@ -941,7 +943,7 @@
         color: #fefefe;
       }
 
-      a.dropdown-item {
+      a.riw-dropdown-item {
         color: #00000091;
       }
 
@@ -1007,7 +1009,7 @@
         color: #b1b1b1;
       }
 
-      a.dropdown-item:hover {
+      a.riw-dropdown-item:hover {
         background-color: #3F2A56;
         color: #fefefe;
       }
