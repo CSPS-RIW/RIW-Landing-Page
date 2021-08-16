@@ -225,10 +225,6 @@
     * Add these for RIW moodle layout 
     */
 
-    /* .body {
-      width: 95em;
-    } */
-
     h2.product-content {
       left: 1rem;
       text-align: center;
@@ -241,35 +237,12 @@
     /* 
   * Try changing width to 94vw
 */
-    .riw-jumbotron {
-      width: 100% !important;
-    }
 
-    .riw-jumbotron p {
-      font-weight: 400;
-    }
-
-    .riw-jumbotron-img {
-      width: 100% !important;
-    }
-
-
-    .riw-carousel {
-      width: 100% !important;
-    }
-
-    .product-list {
-      width: 100% !important;
-    }
-
-    .pdf-docs {
-      width: 100% !important;
-    }
 
     .riw-card-deck {
       position: relative;
       left: 1.25rem;
-      width: 99vw !important;
+      width: 99vw;
     }
 
     .riw-footer-shift {
@@ -296,12 +269,6 @@
     .school-logo p {
       display: block;
       max-width: 7rem;
-    }
-
-    .long-hr {
-      position: relative;
-      left: 1rem;
-      width: 97vw;
     }
 
     .contact-us {
@@ -525,11 +492,6 @@
       top: 15rem;
     }
 
-
-    .custom-hr {
-      position: relative;
-      top: 6rem;
-    }
 
     /* Placemat */
     .placemat-container {
@@ -1091,13 +1053,6 @@
         padding-left: 0.75rem;
         /* top: 15rem; */
       }
-
-      .custom-hr {
-        position: relative;
-        top: 6rem;
-        margin-bottom: 7rem;
-      }
-
 
       /*cards*/
 
