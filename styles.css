@@ -225,22 +225,18 @@
     * Add these for RIW moodle layout 
     */
 
-
     .riw-footer-shift {
-      position: relative;
-      left: -14rem;
-      /* width: 60%; */
+      width: 70%;
     }
 
     .riw-footer-col {
-      /* display: inline !important; */
-      /* margin-right: 1rem !important; */
       left: -1em;
     }
 
     .riw-footer-row {
       position: relative;
       left: 30%;
+      margin-top: 1rem;
     }
 
     p.riw-footer-row {
@@ -283,6 +279,7 @@
 
     a.riw-dropdown-item {
       color: #00000091;
+      width: 21.75em;
     }
 
     .carousel-item img {
@@ -337,14 +334,13 @@
     }
 
     .product-content {
-      position: relative;
-      left: 9rem;
+      width: 100%;
+      text-align: center;
     }
 
-    .product-body {
-      left: 13rem;
-      width: 65%;
-      margin-bottom: 0;
+    h2.product-content,
+    h3.product-content {
+      font-weight: 500;
     }
 
     .riw-dropdown {
@@ -353,10 +349,6 @@
       width: 60%;
       flex-wrap: nowrap !important;
       gap: 4em;
-    }
-
-    .riw-product-container {
-      margin-left: 0 !important;
     }
 
     .riw-col {
@@ -496,12 +488,13 @@
       margin: 0 0 0 -3em;
       position: relative;
       left: 1.25rem;
-      width: 170%;
+      width: 100%;
+      align-content: center;
     }
 
     .riw-card-deck .riw-card {
       flex: 100%;
-      margin: 2rem 1rem;
+      margin: 2rem 0.25rem;
     }
 
     .riw-card-body a {
@@ -550,12 +543,6 @@
 
     .gc-campus img:hover {
       opacity: 0.8;
-    }
-
-    .school-logo {
-      margin: 1rem 0;
-      width: -21em;
-      /* max-width: 49%; */
     }
 
     .school-logo p {
@@ -669,4 +656,8 @@
       margin: 1rem;
       top: 6rem;
       left: -1.2rem;
+    }
+
+    .events-hr {
+      width: 100%;
     }
