@@ -225,21 +225,16 @@
     * Add these for RIW moodle layout 
     */
 
-    .riw-card-deck {
-      position: relative;
-      left: 1.25rem;
-      width: 170%;
-    }
 
     .riw-footer-shift {
       position: relative;
-      left: 2rem;
-      width: 80%;
+      left: -14rem;
+      /* width: 60%; */
     }
 
     .riw-footer-col {
-      display: inline !important;
-      margin-right: 1rem !important;
+      /* display: inline !important; */
+      /* margin-right: 1rem !important; */
       left: -1em;
     }
 
@@ -490,10 +485,6 @@
 
     /*cards*/
 
-    .riw-card-deck {
-      margin-top: 1px;
-    }
-
     .riw-card {
       cursor: default;
       width: 5em;
@@ -502,7 +493,10 @@
     .riw-card-deck {
       display: flex;
       flex-flow: row wrap;
-      margin: 0 -28em;
+      margin: 0 0 0 -3em;
+      position: relative;
+      left: 1.25rem;
+      width: 170%;
     }
 
     .riw-card-deck .riw-card {
@@ -560,6 +554,8 @@
 
     .school-logo {
       margin: 1rem 0;
+      width: -21em;
+      /* max-width: 49%; */
     }
 
     .school-logo p {
